@@ -1,0 +1,27 @@
+.portfolio-section{
+    //background-image: url(../../assets/home/parallax2.jpg);
+    background-color:#464956;
+}
+@media (max-width: 767px){
+    .portfolio-section{
+        .container{
+            .title-md{
+                font-size:14px;
+            }
+            .title-lg{
+                font-size:28px;
+                font-weight:500;
+            }
+        }
+    }
+}
+@media (max-width: 767px) and (orientation:landscape){
+    .portfolio-section{
+        .container{
+            width:100%;
+            padding-left:8px;
+            padding-right:8px;
+            max-width:none;
+        }
+    }
+}

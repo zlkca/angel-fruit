@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="home" datatype="html">
+        <source>Home<x id="START_TAG_SPAN" ctype="x-span"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span"/></source>
+        <target>首页</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\header\header.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="service" datatype="html">
+        <source>Service</source>
+        <target>服务</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\header\header.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="portfolio" datatype="html">
+        <source>Portfolio</source>
+        <target>案例</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\header\header.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">397</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="slideshow001" datatype="html">
+        <source>We offer on- site service including Web design, development, setting and maintenance</source>
+        <target>从网站设计，开发，架设到维护，一站式服务建设</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="slideshowContent001" datatype="html">
+        <source>We provide you mature full site desktop, tablet and mobile Web solution to help you establish your Website or E-commerce Platform rapidly. 
+          <x id="LINE_BREAK" ctype="lb"/>We focus on innovation, and 
+        persist quality and reputation first</source>
+        <target>我们为您提供成熟的全套桌面，平板和手机解决方案，快速帮助你设立网站或电子商务平台，
+          <x id="LINE_BREAK" ctype="lb"/>我们专注创新，坚持品质，信誉第一</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="slideshow002" datatype="html">
+        <source>E-commerce Website Development</source>
+        <target>电子商务网站开发</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="slideshowContent002" datatype="html">
+        <source>We provide selectable domain application, host service, Amazon Web Services, Web &amp; ePlatform design, and Web development &amp; maintenance service</source>
+        <target>我们提供可选的域名申请，主机提供，亚马逊云服务，网站和平台设计，开发和维护服务</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="slideshow003" datatype="html">
+        <source>Custom scheme is designed by Industry experts, and rapid developed by young team</source>
+        <target>行业专家设计方案，年轻团队快速开发</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="slideshowContent003" datatype="html">
+        <source>We focus on the most mainstream cutting-edge technology and advanced management; 
+          <x id="LINE_BREAK" ctype="lb"/>hence, we have sustained cost advantage to fuse technical and business perfectly. 
+          <x id="LINE_BREAK" ctype="lb"/>Our operation principle is growing together with our customers rapidly
+        </source>
+        <target>我们专注于追主流的前沿技术和先进管理，所以我们有持续的成本优势，让科技和商业进行最完美的融合，
+          <x id="LINE_BREAK" ctype="lb"/>和客户一起高速成长是我们的经营理念</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="whatWeDoTitle" datatype="html">
+        <source>What we can do for you?</source>
+        <target>我们可以做什么？</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="whatWeDoContent" datatype="html">
+        <source>We are here to help you rapidly build a reliable, stable, highly customized E-commerce Platform which can be continuous improved based on your business.</source>
+        <target>帮您快速部署一个可靠，稳定，高度定制化而且可以根据您的业务持续改进的商务平台</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mobileApp" datatype="html">
+        <source>Mobile APPs Development</source>
+        <target>移动应用开发</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="IOSApp" datatype="html">
+        <source>IOS APPs Development</source>
+        <target>IOS 应用开发</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="androidApp" datatype="html">
+        <source>Android APPs Development</source>
+        <target>Android 应用开发</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="otherApp" datatype="html">
+        <source>Wechat and other ePlatform APPs Development</source>
+        <target>微信及其他平台应用开发</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="customeApp" datatype="html">
+        <source>Custom APPs Development</source>
+        <target>定制应用开发</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ePlatform" datatype="html">
+        <source>EPlatform Maintenance, Transplantation and Extension</source>
+        <target>平台维护，移植和扩展</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="webDev" datatype="html">
+        <source>Web development</source>
+        <target>网站建设</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">618</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="domainReg" datatype="html">
+        <source>Domain Register and Deployment</source>
+        <target>域名注册和部署</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hostingReg" datatype="html">
+        <source>Hosting Register and Deployment</source>
+        <target>主机注册和部署</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="programDev" datatype="html">
+        <source>Program Development</source>
+        <target>软件开发</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="amazonCloud" datatype="html">
+        <source>Amazon Cloud Service Registration and Deployment</source>
+        <target>亚马逊云服务注册和部署</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="officeAd" datatype="html">
+        <source>Office Administration and Management System Development</source>
+        <target>办公管理系统开发</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="softwareCus" datatype="html">
+        <source>Software Custom Development</source>
+        <target>定制软件开发</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="priceList" datatype="html">
+        <source>Price List</source>
+        <target>价目表</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="weProvideBestWeb" datatype="html">
+        <source>We provide the best Web development service wholeheartedly</source>
+        <target>我们竭诚提供最优质的建站服务</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="businesShowcase" datatype="html">
+        <source>Business Showcase Web</source>
+        <target>企业展示网站</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="40Off" datatype="html">
+        <source>40%Off</source>
+        <target>6折</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="generalTemp" datatype="html">
+        <source>General Template Program (One site)</source>
+        <target>通用模板程序（一套）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="staticPage" datatype="html">
+        <source>Static Page Graphic Design (Five pages)</source>
+        <target>静态页面图文设计（五个）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pagePosition" datatype="html">
+        <source>Page Position Adjustment (Five position)</source>
+        <target>版面位置调整（五处）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="googleMap" datatype="html">
+        <source>Google Map or Bing Map</source>
+        <target>谷歌或必应地图</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="freeHosting" datatype="html">
+        <source>Free Hosting and Domain Service (One year)</source>
+        <target>免费主机和域名服务（一年）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="freeCourse" datatype="html">
+        <source>Free Course of How to use the Web</source>
+        <target>免费网站使用培训</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mobileVision" datatype="html">
+        <source>Mobile Vision Support (Plus $299)</source>
+        <target>手机支持（另$299）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactUs" datatype="html">
+        <source>Contact Us</source>
+        <target>联系我们</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\header\header.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">181</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">556</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">655</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">664</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="IntermediateMember" datatype="html">
+        <source>Intermediate Member Web</source>
+        <target>中级会员网站</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="50Off" datatype="html">
+        <source>50%Off</source>
+        <target>5折</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="membershipLog" datatype="html">
+        <source>Membership Log in &amp; Register System</source>
+        <target>会员登录注册系统</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="membershipManage" datatype="html">
+        <source>Membership Management System</source>
+        <target>会员管理系统</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="staticPage15" datatype="html">
+        <source>Static Page Graphic Design (Fifteen pages)</source>
+        <target>静态页面图文设计（十五个）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pagePosition15" datatype="html">
+        <source>Page Position Adjustment (Fifteen position)</source>
+        <target>版面位置调整（十五处）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="multiLanguageInterface" datatype="html">
+        <source>Multi-language Interface (Simplified Chinese, English)</source>
+        <target>多语言界面（简体中文，英文）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">173</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="encrySecurity" datatype="html">
+        <source>Encryption Security System</source>
+        <target>加密安全系统</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">174</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="freeUpgrade" datatype="html">
+        <source>Free Upgrade Maintenance Service (Half year)</source>
+        <target>免费升级维护（半年）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">176</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mobileVision499" datatype="html">
+        <source>Mobile Vision Support (Plus $499)</source>
+        <target>手机支持（另$499）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="seniorMember" datatype="html">
+        <source>Senior Member Web</source>
+        <target>高级会员网站</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mallShopping" datatype="html">
+        <source>Mall + Shopping + Payment System</source>
+        <target>商城+购物+支付系统</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="membershipAndOrder" datatype="html">
+        <source>Membership &amp; Order Management System</source>
+        <target>会员，订单，商品管理系统</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">170</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="staticPage20" datatype="html">
+        <source>Static Page Graphic Design (Twenty pages)</source>
+        <target>静态页面图文设计（二十个）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pagePostion20" datatype="html">
+        <source>Page Position Adjustment (Twenty position)</source>
+        <target>版面位置调整（二十处）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mobileVision699" datatype="html">
+        <source>Mobile Vision Support (Plus $699)</source>
+        <target>手机支持（另$699）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ourCoreAdvantage" datatype="html">
+        <source>Our Core Advantage</source>
+        <target>我们的核心优势</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">191</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="advancedWebDevTech" datatype="html">
+        <source>Advanced Internet development technology</source>
+        <target>先进的网络开发技术</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adaptToMostPopularDev" datatype="html">
+        <source>We use the most mainstream Internet development technology to make our development process quicker and easier to maintain with higher quality and lower cost</source>
+        <target>采用最主流的网络开发技术，使得开发更快速，质量更高，更容易维护，成本更低W</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">203</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="techPlusDesign" datatype="html">
+        <source>Design and Advanced Development Tool</source>
+        <target>设计和先进的开发工具</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">213</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="globalTech" datatype="html">
+        <source> 
+              Creative design from the professional team, heavy usage of advanced development tool and the experienced support from senior insider experts</source>
+        <target>专业团队的创新设计，大量使用先进开发工具，业内资深专家的丰富经验支持</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">216</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="passionateAndProfess" datatype="html">
+        <source>Passionate Experienced Professional Team</source>
+        <target>有激情和经验的专业团队</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">228</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projectManage" datatype="html">
+        <source>
+              We have different experts take charge of every sections including project management, interface design, program development,  quality test and marketing promotion</source>
+        <target>项目管理，界面设计，软件开发，品质测试和市场推广，我们在每个领域都有专家把控</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">231</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="chineseAndOverseas" datatype="html">
+        <source>Chinese Market Promotion for Overseas Enterprise &amp; Overseas Market Promotion for Chinese Enterprise</source>
+        <target>海外企业的中国市场推广，中国企业的海外市场推广</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">246</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="multiplePlatform" datatype="html">
+        <source>Multi-platform, comprehensive and one site Service</source>
+        <target>多平台，全方位，一体式服务</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">256</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fromDeskToApp" datatype="html">
+        <source>From desktop to mobile ePlatform development, and from Web consulting to Web maintenance</source>
+        <target>从桌面到移动开发，从网站策划到网页改版维护</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">259</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="highCustomized" datatype="html">
+        <source>Highly Customization</source>
+        <target>高度客户化定制</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">268</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="businessFlexible" datatype="html">
+        <source>We help your company to customized establish the most suitable E-commerce ePlatform to highlighting your business advantages</source>
+        <target>为您的企业灵活定制最合适的电子商务平台，让您的业务优势得到突出体现</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">271</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="innovation4" datatype="html">
+        <source>Innovation Persist Quality Reputation</source>
+        <target>专注 创新 品质 信誉</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">283</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="innovation4Content" datatype="html">
+        <source>We focus on Web development. Because the focus, so professional.  
+           Our team members are more innovative and passionate because of their diverse backgrounds
+            We’ve always insisted high quality for product, and persist reputation first.
+        </source>
+        <target>专注网站建设开发，因为专注所以专业；团队拥有多元背景，更具创新能力与创造激情；我们始终坚持良好的产品品质，信誉第一的理念</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">285</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ourTeam" datatype="html">
+        <source>Our team</source>
+        <target>我们的团队</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">607</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="janeYang" datatype="html">
+        <source>Jane Yang</source>
+        <target>Jane Yang</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">314</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projectManager" datatype="html">
+        <source>Project Manager</source>
+        <target>项目经理</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">317</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="speedAndQuality" datatype="html">
+        <source>Fast and high quality are our core advantages</source>
+        <target>速度和质量是我们的核心优势</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">319</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="martinZhang" datatype="html">
+        <source>Martin Zhang</source>
+        <target>Martin Zhang</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">335</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="developer" datatype="html">
+        <source>Web &amp; APP Developer</source>
+        <target>Web &amp; APP 开发员</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">338</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">361</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="createValue" datatype="html">
+        <source>Create value with your enthusiasm and passion</source>
+        <target>用热诚激情创造价值</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">340</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="yukiCheng" datatype="html">
+        <source>Yuki Cheng</source>
+        <target>Yuki Cheng</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">358</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="focusOnNeeds" datatype="html">
+        <source>Focus on customer’s demand, we make high quality products attentively</source>
+        <target>专注于用户需求，用心造就品质</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">363</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xiangwang" datatype="html">
+        <source>xiangwang</source>
+        <target>像罔</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">407</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="xiangwangdetail" datatype="html">
+        <source>A high end online trading platform for photography with forgery distinguishability feature</source>
+        <target>像罔高端线上摄影作品交易平台，以线上电子防伪功能为特色</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">410</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7d837effc221443db45cd0ea205ac81161d65776" datatype="html">
+        <source>Oct. 2017</source>
+        <target>Oct. 2017</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">413</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="particleTech" datatype="html">
+        <source>Particle Technology Research Center</source>
+        <target>粒子技术研究中心主页</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">436</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">466</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">495</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">526</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="particleTechDetail" datatype="html">
+        <source>Particle Technology Research Center belongs to the Department of Chemical and Biochemical Engineering in Western University, a top Canadian University.</source>
+        <target>加拿大顶级名校西安大略大学的化学与生物化学工程系里的粒子技术研究中心主页</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">439</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="address" datatype="html">
+        <source>Address</source>
+        <target>地址</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">564</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">657</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="phones" datatype="html">
+        <source>Phones</source>
+        <target>电话</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">572</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">660</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">692</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="email" datatype="html">
+        <source>Email</source>
+        <target>邮箱</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">583</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">663</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">686</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ourMission" datatype="html">
+        <source> Yocompute focus on customer demands, and devote continuously to innovation. We’ve always insisted to provide high quality Web development service for our customers day by day with practical actions to win the trust of customers.  We are based in Toronto, and we establish the Web which is novel, elegant, stable, secure and easy to use for our customers specially. If you give us a cooperate chance, you’ll get  Unlimited business opportunities</source>
+        <target>Yocompute以专注客户的需求，致力于不断创新，日复一日坚持为客户提供高品质网站服务，用行动赢得信誉。我们立足多伦多，为客户量身定制新颖，有品位，稳定，安全，易用的网站。给我们一个合作机会，您将得到无限商机。
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">610</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactWays" datatype="html">
+        <source>Contact Ways</source>
+        <target>联系方式</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">654</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="name" datatype="html">
+        <source>Name</source>
+        <target>姓名</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">680</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="message" datatype="html">
+        <source>Message</source>
+        <target>信息</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">700</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="send" datatype="html">
+        <source>send</source>
+        <target>发送</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">706</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,23 @@
+$primary-color:#003e7e;
+
+footer{
+	height:100px;
+	padding:50px 0px 0px 0px;
+	font-size:14px;
+
+	.copyright {
+	    color: $primary-color;
+	}
+
+	a {
+	    color: $primary-color;
+	}
+
+
+	@media (min-width:576px) and (max-width: 767px){
+		font-size:14px;
+	}
+	@media (max-width: 575px){
+		font-size:14px;
+	}
+}

@@ -1,0 +1,107 @@
+
+header{
+    .navbar{
+        .navbar-toggler{
+            padding:5px;
+            border-radius: 2px;
+        }
+
+        .navbar-brand{
+            padding-top:10px;
+            padding-left:160px;
+
+            .logo-icon{
+                width:40px;
+                margin-top:0px;
+                margin-right:5px;
+                float:left;
+            }
+
+            .brand-name{
+                font-size:24px;
+                font-weight:600;
+                color:#333;
+                float: left;
+                // height: $header_height;
+                margin-top: 0px;
+                padding-top: 4px;
+            }
+        }
+    }
+
+    .navbar-nav{
+        padding-top:12px;
+    }
+
+    nav{
+    	background-color:#fff;
+    	padding-right: 54px;
+    	ul.navbar-nav {
+    	    float: left;
+    	    margin-bottom: 0px;
+    	  li.nav-item{
+    	    list-style-type:none;
+    	  }
+    	}
+    }
+
+    .language{
+        float:right;
+        margin-left:12px;
+        button{
+            border:none;
+        }
+        .fa-globe {
+            font-size: 28px;
+        }
+        .dropdown-menu{
+            border-radius:0px;
+            min-width:100px;
+            padding-top:3px;
+            padding-bottom:3px;
+            .dropdown-item{
+                font-size:14px;
+                line-height:16px;
+                padding-left:18px;
+            }
+        }
+        .language-btn{
+            width:34px;
+            height:34px;
+            background-color:white;
+        }
+        button:focus {
+          outline: none;
+        }
+    }
+
+    .mobile{
+        display:none;
+    }
+
+    .language-menu{
+        display:none;
+    }
+
+
+    @media (max-width: 767px){
+        .navbar{
+            // height:$header_height;
+
+            .navbar-brand{
+                padding-top:10px;
+                padding-left:10px;
+            }
+        }
+
+        .mobile{
+            display: block;
+        }
+        .icon-area{
+            display: none;
+        }
+        .language-menu{
+                display:block;
+        }
+    }
+}

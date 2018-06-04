@@ -1,0 +1,25 @@
+.contact-section{
+    .right-side{
+        padding-top:54px;
+    }
+
+    .left-side{
+        p{
+            font-size:14px;
+        }
+    }
+
+    @media (max-width: 767px){
+        .right-side{
+            padding-top:10px;
+        }
+        .title-lg{
+            font-size:28px;
+        }
+        .contact-section{
+            padding-top:10px;
+        }
+    }
+}
+
+

@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `feedbacks`(
+    id INT NOT NULL AUTO_INCREMENT, 
+    username VARCHAR(120),
+    email VARCHAR(128),
+    phone VARCHAR(64),
+    message VARCHAR(800),
+    created DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+) ENGINE=InnoDB;

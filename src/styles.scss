@@ -1,0 +1,272 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap.scss"; 
+$fa-font-path: "../node_modules/font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+
+$border-color:#ccc;
+$text-color:#585858;//#212529
+$text-inverse-color:#fff;
+$primary-color:#003e7e;
+$primary-focus-color:#11759a;
+
+$item-height:40px;
+$header_height:64px;
+
+body{
+    .page{
+        margin-top:$header_height;
+    }
+    
+    .btn-holder{
+        width:100%;
+        min-height:36px;
+        padding-top:15px;
+    }
+
+    .btn{
+        width:100%;
+        height:$item-height;
+        border:1px solid #666; 
+        font-weight:400;
+        min-width: 150px;
+        text-align:center;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+    }
+
+    .btn-primary{
+        background-color:$primary-color;
+        color:$text-inverse-color;
+    }
+
+    .btn-primary:hover{
+        background-color:$primary-focus-color;
+    }
+
+    input, textarea, select{
+      width:100%;
+      border: 1px solid #919191;
+      padding: 10px;
+      border-radius: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      color: #212529;//#8d939b;
+      background: transparent;
+      // -webkit-appearance: none;
+      outline: none;
+      margin: 0;      
+      font-weight: 400;
+      font-family: "Roboto", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 18px;
+      display:block;
+
+      -webkit-appearance: none; // remove safari inner shadow
+    }
+
+    .primary-font {
+        font-family: "Roboto", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    .title-xl{
+        font-family: "Roboto", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 60px;
+        color: #8dbf41;//#9ca1a8;
+    }
+
+    .title-lg{
+        font-family: "Roboto", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+        font-size: 40px;
+        font-weight: 500;
+        color: #9ca1a8;    
+    }
+
+    .title-bg{
+        font-family: "Microsoft Yahei", 'Raleway', sans-serif;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 30px;
+        color: #414851;//#8dbf41;
+    }
+
+    .title-md{
+        font-family: "Microsoft Yahei",'Raleway', sans-serif;
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #414851;
+    }
+
+    .title-sm{
+        font-family: "Microsoft Yahei",'Raleway', sans-serif;
+        line-height:18px;
+        font-size:13px;
+        font-weight:300;
+        color: #414851;
+    }
+
+    .title-xs{
+        font-family: "Microsoft Yahei", 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        color: #414851;//#8dbf41;
+    }
+
+    .label-md{
+      font-size:16px;
+      color:rgb(0, 0, 0);
+    }
+
+    .label-sm{
+      font-size:13px;
+      color:rgb(0, 0, 0);
+    }
+
+    .label-lg{
+      font-size:24px;
+      color:rgb(0, 0, 0);
+    }
+
+    .text-xs{
+        font-weight: 100;
+        font-size: 12px;
+        font-family: Roboto, sans-serif;
+        color:#808080;
+    }
+
+    .text-sm{
+        font-weight: 100;
+        font-size: 14px;
+        font-family: Roboto, sans-serif;
+        color:#808080;
+    }
+
+    .text-md{
+       color:rgb(50,50,50);
+       font-family: Roboto, sans-serif;
+       font-size:16px;
+       font-weight:300; 
+    }
+
+    .text-bg{
+      font-size:18px;
+      font-family: Roboto, sans-serif;
+      color:rgb(34, 34, 34);
+    }
+
+    .text-lg{
+       color:#585858;
+       font-family: Roboto, sans-serif;
+       font-size:24px;
+       font-weight:300; 
+    }
+}
+
+
+
+.portfolio-section{
+    padding-top:30px;
+    padding-bottom:30px;
+
+    .title-lg, .title-md{
+        color:#ffffff;
+        text-align:center;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+
+    .title-md{
+        text-align:left;
+    }
+
+    .title-md:hover{
+        color: #8dbf41;
+    }
+
+
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .post_info {
+        padding: 42px 30px 31px 25px;
+
+        p {
+            color: #9ca1a8;
+            font-family: "Microsoft Yahei";
+            font-size:13px;
+            font-weight: 300;
+            margin-top: 9px;
+        }
+    }
+
+    .post_meta {
+        margin-top: 17px;
+        color: #8dbf41;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+    }
+
+    .portfolio {
+        background: rgba(36, 36, 36, 0.6);
+        margin-top:20px;
+    }
+}
+
+agm-map {
+  height: 400px;
+}
+
+.contact-section{
+    padding-top:30px;
+
+    ul{
+        list-style-type:none;
+        margin-top:20px;
+        padding-left:5px;
+    }
+
+    .fa{
+        font-size:30px;
+        color:#8dbf41;
+        p{
+            font-family: "Microsoft Yahei";
+            font-weight: 300;
+            font-size:13px;
+            color:#8d939b;
+        }
+
+        .title-md{
+            font-size:20px;
+            color:0;
+        }
+    }
+
+    .fa-envelope{
+        font-size:20px;
+    }
+}
+

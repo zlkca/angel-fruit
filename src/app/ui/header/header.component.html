@@ -1,0 +1,51 @@
+<header>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-faded fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+      <a class="navbar-brand" href="#">
+        <img class="logo-icon" src="/assets/images/logo.png" />
+        <div class="brand-name">YoCompute</div>
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" (click)="toPage('home')">{{'HOME' | translate}}<span class="sr-only">(current)</span></a>
+          </li>
+<!--           <li class="nav-item">
+            <a class="nav-link" (click)="toPage('service')">{{'SERVICE' | translate}}</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" (click)="toPage('portfolio')" >{{'PORTFOLIO' | translate}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="toPage('contact')" >{{'CONTACT_US' | translate}}</a>
+          </li>
+<!--           <li class="nav-item language-menu">
+            <a class="nav-link"  (click)="changeLanguage('en')">English</a>
+          </li>
+          <li class="nav-item language-menu">
+            <a class="nav-link"  (click)="changeLanguage('cn')">中文</a>
+          </li> -->
+        </ul>
+      </div>
+      
+  <!--     <div class="icon-area">
+        <div class="language dropdown">
+          <button class="language-btn" type="button" id="language-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="language-dropdown">
+              <a class="dropdown-item" (click)="changeLanguage('en')">English</a>
+              <a class="dropdown-item" (click)="changeLanguage('cn')">中文</a>
+          </div>
+        </div>
+      </div> -->
+  </nav>
+
+</header>
+
+
+
