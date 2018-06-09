@@ -1,6 +1,121 @@
 $light-gray: #f6f6f6;
 $padding_top:30px;
 
+.home-page{
+
+    .slide-block{
+        padding:0px calc((100% - 1132px) / 2);
+        .image-block{
+            width:672px;
+            float:left;
+            img{
+                width:100%;
+                height:auto;
+            }
+        }
+        .text-block{
+            width:460px;
+            float:left;
+            background-color:#f6f6f6;
+            padding:150px 50px 0 90px;
+            color:#7e7e7e;
+            h2{
+                font:400 36px/48px 'Julius Sans One', sans-serif;
+                text-transform:uppercase;
+                color:rgb(56, 51, 42);
+            }
+            p{
+                word-wrap: break-word;
+            }
+        }
+    }
+
+    .picture-block{
+        background-color: rgb(56,51,45);
+        padding:0px calc((100% - 1132px) / 2);
+        .banner{
+            display:block;
+            float:left;
+            height:404px;
+            position:relative;
+            overflow:hidden;
+
+            img{
+
+            }
+
+            .banner-title{
+                height:135px;
+                width:100%;
+                padding-top:25px;
+                span{
+                    float:left;
+                    font:400 36px/48px 'Julius Sans One', sans-serif;
+                    text-transform:uppercase;
+                    padding: 18px 35px;
+                }
+            }
+        }
+
+        .banner-1{
+            .banner-title{
+                background-color:rgb(162,206,37);
+                span{
+                    color:white;
+                }
+            }
+
+        }
+
+        .banner-2{
+            .banner-title{
+                color:rgb(56, 51, 42);
+                background-color:white;
+            }
+        }
+
+        .banner-3{
+            background-color:#e9003c;//yellow;
+            float:left;
+            width:288px;
+            padding:93px 15px 35px 15px;
+
+            .banner-title{
+                color:white;
+                font-family: 'Julius Sans One', sans-serif;
+                text-transform: uppercase;
+                // display: block;
+                font-size: 24px;
+                line-height: 36px;
+                position: relative;
+                padding-bottom: 29px;
+            }
+
+            .banner-body{
+                padding-top: 31px;
+                color:white;
+                font-family: "Open Sans", sans-serif;
+                font-size:14px;
+                font-weight:700;
+                line-height:24px;
+            }
+        }
+    }
+    // .banner-wrapper:before, .banner-wrapper:after{
+    //     content:'';
+    //     display:inline-block;
+    //     position:absolute;
+    //     bottom:0;
+    //     top:0;
+    //     background:#38332d;
+    // }
+    // .banner-wrapper:before{
+    //     left:-9999px;
+    //     right:100%;
+    // }
+    
+}
+
 .link{
     color: #8dbf41;
     font-size: 18px;

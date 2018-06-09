@@ -8,7 +8,7 @@
 
 var mode = "";
 var project = 'angelfruit';
-
+var domain = 'angelfruit.ca';
 var expiry = 30 * 60 * 1000;
 
 module.exports = {
@@ -19,7 +19,7 @@ module.exports = {
 	dbPassword:'',
 	dbPort: '27017',
 	apiUrl: '/api',
-	ALLOW_ORIGINS:["http://yocompute.com", "http://www.yocompute.com"],
+	ALLOW_ORIGINS:["http://" + domain, "http://www." + domain],
 	sessionPrefix: project,
 	sessionExpiry: expiry, // milliseconds
 	//'imageRoot' : imgRoot,
