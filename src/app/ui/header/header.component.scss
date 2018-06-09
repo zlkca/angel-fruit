@@ -24,7 +24,7 @@ header{
                 float: left;
                 // height: $header_height;
                 margin-top: 0px;
-                padding-top: 4px;
+                padding-top: 10px;
             }
         }
     }
@@ -39,9 +39,10 @@ header{
     	ul.navbar-nav {
     	    float: left;
     	    margin-bottom: 0px;
-    	  li.nav-item{
-    	    list-style-type:none;
-    	  }
+            li.nav-item{
+                list-style-type:none;
+                margin-top:0px;
+            }
     	}
     }
 
