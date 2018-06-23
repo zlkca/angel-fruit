@@ -1,7 +1,7 @@
 const http = require('http');
 const express = require('express')
 //const cors = require('cors')
-const cfg = require('./config')
+//const cfg = require('./config')
 const path = require('path')
 const app = express()
 
@@ -17,9 +17,9 @@ var cookieParser = require('cookie-parser');
 //parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false, limit: '1mb' }));
 
-// parse application/json
-app.use(bodyParser.json({ limit: '1mb' }));
+// parse application/json1mbapp.use(}));
 
+bodyParser.json({ limit: '' 
 //----------------------------------------------------------------------------------------
 // The cookie parser used before the session, this order is required for sessions to work.
 // By default maxAge is null, meaning the cookie becomes a browser-session cookie, that is 
