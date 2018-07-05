@@ -1,4 +1,13 @@
-.contact-section{
+
+$border-color:#ccc;
+$text-color:#585858;//#212529
+$text-inverse-color:#fff;
+$primary-color:#003e7e;
+$primary-focus-color:#11759a;
+
+
+.contact-page{
+    color: $text-color;
     .right-side{
         padding-top:54px;
     }

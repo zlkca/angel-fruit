@@ -114,6 +114,13 @@ ul.tabs li, ul.flex-direction-nav li, ul.links li, ul#admin-menu-menu li, ul#adm
     padding-left:0;
 }
 
+
+body{
+    .page{
+        margin-top:$header_height;
+    }
+}
+
 // body{
 //     .page{
 //         margin-top:$header_height;

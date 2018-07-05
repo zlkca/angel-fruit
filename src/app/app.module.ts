@@ -18,7 +18,7 @@ import { FeedbackComponent } from './ui/feedback/feedback.component';
 
 import { HomeComponent } from './pages/home/home.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { ProductComponent } from './pages/product/product.component';
 
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 
@@ -43,9 +43,9 @@ const appRoutes: Routes = [
   //   data: { title: 'Services' }
   // },
     {
-    path: 'portfolio',
-    component: PortfolioComponent,
-    data: { title: 'Portfolio' }
+    path: 'products',
+    component: ProductComponent,
+    data: { title: 'Products' }
   },
   {
     path: 'contact',
