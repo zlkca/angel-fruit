@@ -14,11 +14,19 @@ import { catchError, map } from 'rxjs/operators';
 })
 export class ContactComponent implements OnInit {
 
-	addresses: any[] = [{unit:'Unit-106', street:'53 ParkHurst Square, Brampton, ON L6T5H5', center:{lat: 43.728282, lng: -79.665341}];
+	addresses: any[] = [
+	 {unit:'Unit-106', street:'53 ParkHurst Square, Brampton, ON L6T5H5', center:{lat: 43.728282, lng: -79.665341}}
+	,{unit:'Unit-106', street:'73 ParkHurst Square, Brampton, ON L6T5J2', center:{lat: 43.729168, lng: -79.66618}}
+	,{unit:'Unit-106', street:'8 Westmore Drive, Etobicoke, ON M5V3Z7', center:{lat: 43.741986, lng: -79.605158}}
+	,{unit:'Unit-106', street:'2300 Lawrence Avenue East, Scarborough ON M1P2R3', center:{lat: 43.7507919, lng: -79.2765612}}
+	,{unit:'Unit-106', street:'53 ParkHurst Square, Brampton, ON L6T5H5', center:{lat: 43.728282, lng: -79.665341}}
+	,{unit:'Unit-106', street:'53 ParkHurst Square, Brampton, ON L6T5H5', center:{lat: 43.728282, lng: -79.665341}}
+	];
+
   constructor(private http:HttpClient, private translate:TranslateService) { }
 
   ngOnInit() {
-  	let addr = this.addresses[0];
+  	let addr = this.addresses[3];
   	this.getLocation(addr.street).subscribe(x=>{
   		let kk = x;
   	})

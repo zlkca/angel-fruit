@@ -8,8 +8,15 @@ $primary-focus-color:#11759a;
 
 .contact-page{
     color: $text-color;
+
+    .container{
+        padding-top:50px;
+    }
+    .row{
+        margin-bottom:15px;
+    }
     .right-side{
-        padding-top:54px;
+
     }
 
     .left-side{
