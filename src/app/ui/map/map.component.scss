@@ -6,25 +6,25 @@
 
  .pac-container:after{display:none !important;}
 
-a[href^="http://maps.google.com/maps"]{display:none !important}
-a[href^="https://maps.google.com/maps"]{display:none !important}
+// a[href^="http://maps.google.com/maps"]{display:none !important}
+// a[href^="https://maps.google.com/maps"]{display:none !important}
 
-img[src="http://maps.gstatic.com/mapfiles/api-3/images/google_white2.png"], a[href^="http://maps.google.com/maps"]{
-    display:none !important;
-}
+// img[src="http://maps.gstatic.com/mapfiles/api-3/images/google_white2.png"], a[href^="http://maps.google.com/maps"]{
+//     display:none !important;
+// }
 
-.gmnoprint a, .gmnoprint span {
-    display:none;
-}
-.gmnoprint div {
-    background:none !important;
-}
-.gmnoprint a, .gmnoprint span, .gm-style-cc {
-    display:none;
-}
-.gmnoprint div {
-    background:none !important;
-}
+// .gmnoprint a, .gmnoprint span {
+//     display:none;
+// }
+// .gmnoprint div {
+//     background:none !important;
+// }
+// .gmnoprint a, .gmnoprint span, .gm-style-cc {
+//     display:none;
+// }
+// .gmnoprint div {
+//     background:none !important;
+// }
 
 $cellphone: "(max-width: 575px)";
 $mobile: "(min-width:576px) and (max-width: 767px)";

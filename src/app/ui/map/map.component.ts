@@ -31,7 +31,7 @@ export class MapComponent implements OnInit {
   
   initMap() {
     let self = this;
-        var map = new google.maps.Map(this.div.nativeElement,//document.getElementById('map'), 
+        var map = new google.maps.Map(this.div.nativeElement,
         {
           zoom: self.zoom,
           center: self._coords

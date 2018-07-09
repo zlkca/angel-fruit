@@ -8,6 +8,7 @@ $primary-focus-color:#11759a;
 
 .contact-page{
     color: $text-color;
+    padding-top:70px;
 
     .container{
         padding-top:50px;
@@ -15,8 +16,9 @@ $primary-focus-color:#11759a;
     .row{
         margin-bottom:15px;
     }
-    .right-side{
 
+    ul{
+        list-style-type: none;
     }
 
     .left-side{
@@ -28,6 +30,14 @@ $primary-focus-color:#11759a;
     @media (max-width: 767px){
         .right-side{
             padding-top:10px;
+            height: 160px;
+            width: 100%;
+        }
+        .left-side{
+            padding: 20px 0px;
+            ul{
+                padding-left: 20px;
+            }
         }
         .title-lg{
             font-size:28px;

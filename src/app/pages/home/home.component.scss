@@ -12,6 +12,7 @@ $padding_top:30px;
 
     .slide-block{
         padding:0px calc((100% - 1132px) / 2);
+
         .image-block{
             width:672px;
             float:left;
@@ -46,10 +47,6 @@ $padding_top:30px;
             height:404px;
             position:relative;
             overflow:hidden;
-
-            img{
-
-            }
 
             .banner-title{
                 height:135px;
@@ -127,14 +124,14 @@ $padding_top:30px;
         font: 400 36px/48px 'Julius Sans One', sans-serif;
 
         width: 1100px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0px;
+        margin-right: 0px;
         padding: 50px 0px 0px 0px;
         margin-bottom:0px;
       }
 
       .title-col{
-        width:386px;
+        width:350px;
         height:425px;
         float:left;
         background-color:white;
@@ -153,6 +150,10 @@ $padding_top:30px;
         }
       }
 
+      .picture-col{
+          width:746px;
+          float:left;
+      }
 
     }
     // .banner-wrapper:before, .banner-wrapper:after{
@@ -170,137 +171,7 @@ $padding_top:30px;
     
 }
 
-.link{
-    color: #8dbf41;
-    font-size: 18px;
-}
 
-.main-ad{
-    .caption{
-        width:100%;
-        position: absolute;
-        top:30%;
-        color: #ffffff;
-        margin-left:auto;
-        margin-right:auto;
-        text-align:center;
-
-        h2{
-            font-size: 56px;
-            width:100%;    
-        }
-
-        p{
-            margin-top:16px;
-            color: #ffffff;
-            font-size: 22px;
-            width: 60%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-}
-
-
-// #home-carousel{
-//     height:460px;
-//     .carousel-control-prev, .carousel-control-next{
-//         width:7%;
-//     }
-//     .carousel-inner{
-//         height:100%;
-        
-//         .carousel-item{
-//             .caption{
-//                 width:100%;
-//                 position: absolute;
-//                 top:20%;
-//                 color: #ffffff;
-//                 margin-left:auto;
-//                 margin-right:auto;
-//                 text-align:center;
-
-//                 h2{
-//                     font-size: 50px;
-//                     width:100%;    
-//                 }
-
-//                 p{
-//                     margin-top:16px;
-//                     color: #ffffff;
-//                     font-size: 20px;
-//                     width: 60%;
-//                     margin-left: auto;
-//                     margin-right: auto;
-//                 }
-//             }
-//         }
-//     }
-// }
-
-
-.core-section{
-    position: relative;
-    //background-image: url('../../assets/home/parallax1.jpg');
-    height: 452px;
-    transform: translate3d(0px, -44.1891px, 0px);
-    color: #ffffff;
-    padding: 60px 0px;
-
-    .block-icon {
-        position: relative;
-        padding-left: 51px;
-    }
-
-    .icon {
-        position: absolute;
-        font: 400 32px/32px 'FontAwesome';
-        color: #8dbf41;
-        display: inline-block;
-        text-align: center;
-        left: 2px;
-        top: -2px;
-    }
-
-    .row{
-        margin-top:20px;
-    }
-}
-
-.vision-section{
-    background: #8dbf41;
-    text-align: center;
-    padding-bottom: 60px;
-    padding-top: 60px;
-
-    .title-lg, .title-md{
-        color:#ffffff;
-    }
-}
-
-.contact-section{
-    .right-side{
-        padding-top:54px;
-    }
-
-    .left-side{
-        p{
-            font-size:14px;
-        }
-    }
-
-    @media (max-width: 767px){
-        .right-side{
-            padding-top:10px;
-        }
-        .title-lg{
-            font-size:28px;
-        }
-        .contact-section{
-            padding-top:10px;
-        }
-    }
-}
 
 @media (min-width: 1200px){
 
@@ -311,88 +182,145 @@ $padding_top:30px;
 }
 
 @media (max-width: 767px){
-    .main{
-        img{
-            height:300px;
-        }
-        
-        .caption{
-            padding-top:80px;
-            h2{
-                font-size: 32px;
-            }
 
-            p{
-                width:80%;
-                font-size:14px;
-            }
-        }
-    }
+    .home-page{
 
-
-    #home-carousel{
-        height:270px;
-        .carousel-inner{
-            .carousel-item{
-                img{
-                    height:270px;
-                }
-                .caption{
-                    h2{
-                        font-size: 28px;
-                    }
-
-                    p{
-                        width:80%;
-                        font-size:14px;
-                    }
-                }
-            }
-        }
-    }
-
-    .text-center{
-        text-align: center;
-    }
-
-    .service-section{
-        width:100%;
-        max-height:380px;
-
-        .left-side, .right-side{
-            height:380px;
-        }
-
-        .service-group, .group-layout{
-            flex-wrap: nowrap;
-        }
-        
-        .right-side{
-            display:none;
-        }
-
-        .container{
+        .slide-block{
             padding:0px;
+
+            .image-block{
+                width: 100%;
+                padding:0px;
+            }
+
+            .text-block{
+                width: 100%;
+                padding:40px 30px;
+                h2{
+                    font-size: 28px;
+                }
+            }
         }
-        img{
-            width:90%;
+
+        .picture-block{
+            padding:0px;
+            .banner-2{
+                width:100%;
+                img{
+                    width:100%;
+                }
+            }
+            .banner-3{
+                width:100%;
+                padding:40px 30px;
+                .banner-body{
+                    padding-top:0px;
+                }
+            }
+        }
+
+        .row-3{
+            .ad-text{
+                font-size: 28px;
+            }
+            .title-col{
+                width:100%;
+                padding:40px 30px;
+                height: 180px;
+                font-size: 42px;
+                margin-bottom:0px;            
+            }
+            .picture-col{
+                img{
+                    width:100%;
+                }
+            }
         }
     }
 
-    .core-section, .vision-section{
-        display:none;
-    }
-}
-
-@media  (max-width: 767px) and (orientation:portrait){
-    .main{
-        img{
-            height:240px;
-        }
+    // .main{
+    //     img{
+    //         height:300px;
+    //     }
         
-        .caption{
-            padding-top: 0;
-            margin-top: -60px;
-        }
-    }
+    //     .caption{
+    //         padding-top:80px;
+    //         h2{
+    //             font-size: 32px;
+    //         }
+
+    //         p{
+    //             width:80%;
+    //             font-size:14px;
+    //         }
+    //     }
+    // }
+
+
+    // #home-carousel{
+    //     height:270px;
+    //     .carousel-inner{
+    //         .carousel-item{
+    //             img{
+    //                 height:270px;
+    //             }
+    //             .caption{
+    //                 h2{
+    //                     font-size: 28px;
+    //                 }
+
+    //                 p{
+    //                     width:80%;
+    //                     font-size:14px;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+
+    // .text-center{
+    //     text-align: center;
+    // }
+
+    // .service-section{
+    //     width:100%;
+    //     max-height:380px;
+
+    //     .left-side, .right-side{
+    //         height:380px;
+    //     }
+
+    //     .service-group, .group-layout{
+    //         flex-wrap: nowrap;
+    //     }
+        
+    //     .right-side{
+    //         display:none;
+    //     }
+
+    //     .container{
+    //         padding:0px;
+    //     }
+        
+    //     img{
+    //         width:90%;
+    //     }
+    // }
+
+    // .core-section, .vision-section{
+    //     display:none;
+    // }
 }
+
+// @media  (max-width: 767px) and (orientation:portrait){
+//     .main{
+//         img{
+//             height:240px;
+//         }
+        
+//         .caption{
+//             padding-top: 0;
+//             margin-top: -60px;
+//         }
+//     }
+// }
