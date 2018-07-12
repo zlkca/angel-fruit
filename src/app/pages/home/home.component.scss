@@ -44,12 +44,12 @@ $padding_top:30px;
         .banner{
             display:block;
             float:left;
-            height:404px;
+            height:376px;
             position:relative;
             overflow:hidden;
 
             .banner-title{
-                height:135px;
+                height:133px;
                 width:100%;
                 padding-top:25px;
                 span{
@@ -61,7 +61,7 @@ $padding_top:30px;
                 .banner-text{
                     float:left;
                     text-transform:uppercase;
-                    padding: 18px 35px;
+                    padding: 0px 35px;
                     font:400 24px/32px 'Julius Sans One', sans-serif;
                     .row{
                         float:left;
@@ -96,7 +96,7 @@ $padding_top:30px;
             background-color:#e9003c;//yellow;
             float:left;
             width:244px;
-            height:378px;
+            height:376px;
             padding:23px 15px 35px 15px;
 
             .banner-title{
@@ -118,6 +118,47 @@ $padding_top:30px;
                 font-weight:700;
                 line-height:24px;
             }
+        }
+
+        .banner-4{
+            background-color:orange;
+            float:left;
+            width:244px;
+            height:376px;
+            padding:23px 15px 35px 15px;
+
+            .banner-title{
+                color:white;
+                font-family: 'Julius Sans One', sans-serif;
+                text-transform: uppercase;
+                // display: block;
+                font-size: 24px;
+                line-height: 36px;
+                position: relative;
+                padding-bottom: 29px;
+            }
+
+            .banner-body{
+                padding-top: 31px;
+                color:white;
+                font-family: "Open Sans", sans-serif;
+                font-size:14px;
+                font-weight:700;
+                line-height:24px;
+            }
+        }
+
+        .img-mix1{
+            width:288px;
+        }
+    }
+
+    .shake-grid{
+        .cell{
+            padding: 0px;
+        }
+        img{
+            width:100%;
         }
     }
 
@@ -233,7 +274,7 @@ $padding_top:30px;
                     width:100%;
                 }
             }
-            .banner-3{
+            .banner-3, .banner-4{
                 width:100%;
                 padding:40px 30px;
                 .banner-body{
