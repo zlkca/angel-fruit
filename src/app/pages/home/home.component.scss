@@ -68,21 +68,25 @@ $padding_top:30px;
                     color:white;
                 }
             }
-
+			.banner-image-1{
+				width:600px;// 242px
+			}
         }
 
         .banner-2{
             .banner-title{
                 color:rgb(56, 51, 42);
                 background-color:white;
+                width:288px;
             }
         }
 
         .banner-3{
             background-color:#e9003c;//yellow;
             float:left;
-            width:288px;
-            padding:93px 15px 35px 15px;
+            width:244px;
+            height:378px;
+            padding:23px 15px 35px 15px;
 
             .banner-title{
                 color:white;
