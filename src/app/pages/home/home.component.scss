@@ -28,7 +28,7 @@ $padding_top:30px;
             padding:150px 50px 0 90px;
             color:#7e7e7e;
             h2{
-                font:400 36px/48px 'Julius Sans One', sans-serif;
+                font:400 34px/48px 'Julius Sans One', sans-serif;
                 text-transform:uppercase;
                 color:rgb(56, 51, 42);
             }
@@ -58,13 +58,24 @@ $padding_top:30px;
                     text-transform:uppercase;
                     padding: 18px 35px;
                 }
+                .banner-text{
+                    float:left;
+                    text-transform:uppercase;
+                    padding: 18px 35px;
+                    font:400 24px/32px 'Julius Sans One', sans-serif;
+                    .row{
+                        float:left;
+                    }
+                }
             }
         }
 
         .banner-1{
             .banner-title{
+                width:600px;
                 background-color:rgb(162,206,37);
-                span{
+                span, .banner-text{
+                    font:400 20px/30px 'Julius Sans One', sans-serif;
                     color:white;
                 }
             }
@@ -115,7 +126,7 @@ $padding_top:30px;
       width:100%;
       padding:0px;
       margin:0px;
-    //   background-image: url(assets/images/home/bg-1.jpg);
+      background-image: url(assets/images/home/bg-1.jpg);
       background-position: center top;
       padding:0px calc((100% - 1132px) / 2);
 
@@ -141,7 +152,7 @@ $padding_top:30px;
         background-color:white;
 
         text-transform: uppercase;
-        font-size: 56px;
+        font-size: 36px;
         line-height: 46px;
         font-family: 'Julius Sans One', sans-serif;
         color: #ffbf1c;
