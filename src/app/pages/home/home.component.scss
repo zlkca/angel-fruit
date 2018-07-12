@@ -136,7 +136,7 @@ $padding_top:30px;
 
       .title-col{
         width:350px;
-        height:425px;
+        height:431px;
         float:left;
         background-color:white;
 
@@ -208,8 +208,16 @@ $padding_top:30px;
 
         .picture-block{
             padding:0px;
+            .banner-1{
+                height: auto;
+                .banner-image-1{
+                    width:100%;
+                }
+            }
+
             .banner-2{
                 width:100%;
+                height:100%;
                 img{
                     width:100%;
                 }
